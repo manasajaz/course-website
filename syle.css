@@ -1,0 +1,188 @@
+.container,
+.container-fluid {
+    height: 100vh;
+}
+
+.hero {
+    background-image: linear-gradient(rgba(0, 0.5, 0.5, 0.5), rgba(0, 0.5, 0.5, 0.5)), url(./ui\ image.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(0, 0, 0);
+    position: sticky;
+    top: 0;
+    width: 100%;
+}
+
+.btn {
+    margin-right: 10px;
+}
+
+.logo img {
+    margin-left: 20px;
+    width: 40px;
+    margin-top: 10px;
+    color: rgb(30, 167, 172);
+}
+
+
+.menu ul {
+    display: flex;
+    margin: 10px;
+    list-style: none;
+}
+
+.menu ul li {
+    margin-left: 20px;
+}
+
+.menu ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+.menu ul li a:hover {
+    color: rgb(30, 167, 172);
+    border-radius: 2%;
+}
+
+.main {
+    display: flex;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.main .content {
+    color: white;
+}
+
+.main img {
+    margin: 50px 30px 0px 20px;
+    width: 500px;
+    border-radius: 5%;
+
+}
+
+.card {
+    border-radius: 5px;
+}
+
+.card:hover {
+    transform: scale(1.05);
+    cursor: pointer;
+}
+
+.card-footer {
+    background-color: rgb(8, 99, 99);
+    color: white;
+    text-align: center;
+}
+
+#ourteacher {
+    background-image: linear-gradient(rgba(0, 0.5, 0.5, 0.5), rgba(0, 0.5, 0.5, 0.5)), url(./teachers.jpg);
+}
+
+#text {
+    color: rgb(190, 199, 199);
+}
+
+.btn {
+    color: rgb(252, 255, 255);
+    background-color: rgb(30, 167, 172);
+}
+
+.btn:hover {
+    color: rgb(30, 167, 172);
+    background-color: rgb(252, 255, 255);
+}
+
+.container .mydiv1 {
+    color: rgb(30, 167, 172);
+    border: 2px solid rgb(30, 167, 172);
+    border-radius: 5px;
+
+}
+
+.container .mydiv2 {
+    color: white;
+    background-color: rgb(30, 167, 172);
+}
+
+.container .mydiv3 {
+    background-color: rgb(106, 209, 212);
+    color: white
+}
+
+#aboutus {
+    color: white;
+    background-color: rgb(30, 167, 172);
+    padding-top: 5%;
+
+}
+
+#contactus {
+    color: white;
+    background-color: rgba(5, 131, 131, 0.699);
+    padding-top: 5%;
+}
+
+.contactus {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+input {
+    border: 2px solid transparent;
+    border-radius: 10px;
+    width: 300px;
+    outline: none;
+}
+
+.footer {
+    background-color: #24262b;
+}
+
+.col h4 {
+    color: white;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    font-weight: 400
+}
+
+.col ul li {
+    margin-bottom: 10px;
+}
+
+.col ul li a {
+    text-decoration: none;
+    color: rgb(144, 153, 153);
+    transition: all 0.5s ease;
+}
+
+.col ul li a:hover {
+    color: white;
+    padding-left: 8px;
+}
+
+.col .links a {
+    /* height: 40px;
+width:40PX;
+background-color: rgb(144, 153, 153); */
+    display: inline-block;
+    margin: 0px 10px 0px 0px;
+    text-align: center;
+    border-radius: 50%;
+
+}
+
+#aboutus .about-col {
+    font-size: 2rem;
+    background-color: black;
+}
